@@ -1,1 +1,1 @@
-from gym_tictactoe.spaces import ASpaceTicTacToe
+from gym_tictactoe.spaces.ASpaceTicTacToe import TicTacToeEncoding

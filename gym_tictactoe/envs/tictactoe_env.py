@@ -7,11 +7,11 @@ import numpy as np
 
 #Env template
 
-class TicTacToe(gym.Env):
+class TicTacToeEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self, dim = 3):
-        super(TicTacToe, self).__init__()
+        super(TicTacToeEnv, self).__init__()
         self.dim = dim #Esto te brinda la posibilidad de jugar a TicTacToe de más dimensiones, lo cual pues está curioso
         self.tablero = np.array([0]*self.dim**2)
         self.fichas = [-1, 1] #Lista con las posibles fichas
