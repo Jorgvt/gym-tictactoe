@@ -1,1 +1,1 @@
-from gym_tictactoe.envs.EnvTicTacToe import EnvTicTacToe
+from gym_tictactoe.envs.tictactoe_env import EnvTicTacToe
