@@ -1,6 +1,5 @@
 import gym
 from gym import spaces
-from 
 from copy import copy
 import random
 from gym_tictactoe.spaces import TicTacToeEncoding #Este es el espacio que he creado a posta
